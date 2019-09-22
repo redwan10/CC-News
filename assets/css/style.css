@@ -257,7 +257,7 @@ a{
 .single-top-news {
 	position: relative;
 	margin-bottom: 30px;
-	min-height: 201px;
+	min-height: 213px;
 }
 .single-top-news:after {
 	background: #0000004d;
@@ -275,7 +275,7 @@ a{
 
 .single-top-news img {
 	width: 100%;
-	min-height: 200px;
+	min-height: 212px;
 }
 .single-top-news.big-box h4 {
 	font-size: 22px;
@@ -300,3 +300,4 @@ a{
 	line-height: 26px;
 }
 /* Top News Area End */
+
