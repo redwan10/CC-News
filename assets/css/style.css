@@ -29,6 +29,7 @@
 :root {
 	--primary-bg: #4582FF;
 	--secoundary-bg: #fea116; 
+	--gray-bg: #F0F0ED;
 }
 
 
@@ -70,7 +71,7 @@ h5,
 h6 {
 	font-family: 'Poppins', sans-serif;
 	font-weight: normal;
-	color: #333333;
+	color: #4a4a4a;
 	margin-top: 0px;
 	font-style: normal;
 	font-weight: 400;
@@ -129,6 +130,25 @@ a{
 	z-index: 9999;
 }
 
+.title {
+	margin-bottom: 30px;
+}
+.title h4 {
+	position: relative;
+	padding-bottom: 9px;
+	border-bottom: 1px solid #eee;
+	display: inline-block;
+}
+
+.title h4:before {
+	position: absolute;
+	content: "";
+	left: 0;
+	bottom: -2px;
+	width: 40px;
+	height: 3px;
+	background-color: #d84315;
+}
 /* Default button */
 
 
@@ -311,3 +331,75 @@ a{
 }
 /* Top News Area End */
 
+/* Tab Menu Option */
+ul.tab-menu {
+	padding-left: 0;
+	position: relative;
+}
+
+ul.tab-menu:before {
+	position: absolute;
+	content: "";
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 2px;
+	background-color: var(--primary-bg);
+}
+
+ul.tab-menu li a {
+	padding: 0.5em 1.6em;
+	display: inline-block;
+	padding-top: 7px;
+	padding-right: 3em;
+	line-height: 20px;
+	border: 2px solid var(--primary-bg);
+	border-top-right-radius: 52px;
+	margin-left: -7px;
+	background-color: #fff;
+	position: relative;
+}
+
+ul.tab-menu li a.active {
+	z-index: 9999;
+	background-color: var(--primary-bg);
+	color: #fff;
+}
+ul.tab-menu li:first-child a {
+	margin-left: 0;
+}
+
+.tab-content .tab-pane ul li a {
+	display: block;
+	font-size: 16px;
+	font-weight: 600;
+	padding: 15px 10px;
+	background-color: #F6F6F6;
+	border-bottom: 1px solid #ccc;
+	position: relative;
+}
+
+.tab-content .tab-pane ul li a:hover {
+	color: var(--primary-bg);
+}
+
+.tab-content .tab-pane ul li:last-child a {
+	border-bottom-color: transparent;
+	text-align: center;
+	color: #d84315;
+}
+
+.tab-content .tab-pane ul li a span {
+	font-size: 12px;
+	line-height: 36px;
+	font-weight: 500;
+	font-family: rubik;
+	display: inline-block;
+	float: right;
+	margin-left: 5px;
+}
+
+.tab-content .tab-pane ul li a span i {
+	margin-right: 5px;
+}
+/* Tab Menu Option end */
