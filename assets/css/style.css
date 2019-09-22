@@ -25,6 +25,12 @@
 /* google fonts */
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Work+Sans:300,400,500,600,700,800');
 
+/* Default Color */
+:root {
+	--primary-bg: #4582FF;
+}
+
+
 /* 1. Theme default css */
  body {
 	font-family: 'Work Sans', sans-serif;
@@ -119,14 +125,96 @@ a{
 /* Custom css start */
 
 
+/* header top  */
+.header-top-area{
+	background-color: var(--primary-bg);
+}
+.header-top-left p{
+	color: #fff;
+	margin-bottom: 0;
+	line-height: 1.5;
+}
+.header-top-left p span {
+	display: inline-block;
+	margin-right: 5px;
+}
+.header-top-left p span:last-child {
+	margin-right: 0;
+}
+.header-top-left p span i {
+	margin-right: 5px;
+}
+
+
+.header-top-right ul li {
+	display: inline-block;
+	margin: 0 5px;
+}
+
+.header-top-right ul li a:after {
+	display: none;
+}
+.header-top-right ul li a {
+	color: #fff;
+	font-size: 15px;
+}
+.header-top-right ul li ul.dropdown-menu li a {
+	color: #616161;
+	display: block;
+	font-weight: 500;
+	text-transform: capitalize;
+	padding: 6px 16px;
+}
+
+.header-top-right ul li ul.dropdown-menu li a:hover {
+	background-color: #efefef;
+}
+
+.header-top-right ul li ul.dropdown-menu li {
+	display: block;
+	border-bottom: 1px solid #ccc;
+}
+.header-top-right ul li ul.dropdown-menu li:last-child {
+	border-bottom: none;
+}
+.header-top-right ul li ul.dropdown-menu {
+	min-width: 5.5em;
+	text-align: center;
+	padding-top: 5px;
+	background: #ffffff;
+	padding-bottom: 5px;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-ms-border-radius: 0;
+	-o-border-radius: 0;
+}
+.header-top-right ul li.search ul.dropdown-menu li {
+	padding: 10px 10px;
+}
+.header-top-right ul li.search ul.dropdown-menu li form button {
+	width: 40px;
+	height: 30px;
+	border: none;
+	color: #fff;
+	background-color: var(--primary-bg);
+	margin-left: 10px;
+	font-size: 16px;
+	line-height: 30px;
+}
+.header-top-right ul li.search ul.dropdown-menu li form input {
+	padding-left: 10px;
+	font-size: 16px;
+	font-weight: 600;
+}
+/* header top End */
+
 /* Header Area  */
-.header-logo {}
 .header-logo img{
 	max-width: 100%;
 }
 
 /* Main Menu */
-.main-menu {}
 .main-menu li{
 	display: inline-block;
 	margin: 0 10px;
@@ -159,17 +247,6 @@ a{
 }
 /* Main Menu End */
 
-
-
-
-/* header option */
-.header-options {}
-.header-options ul{}
-.header-options ul li{
-	display: inline-block;
-}
-.header-options ul li a{}
-/* header option end */
 
 /* Header Area End */
 
