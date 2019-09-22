@@ -74,7 +74,7 @@ h6 {
 	color: #4a4a4a;
 	margin-top: 0px;
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 600;
 	text-transform: normal;
 }
 
@@ -403,3 +403,19 @@ ul.tab-menu li:first-child a {
 	margin-right: 5px;
 }
 /* Tab Menu Option end */
+
+
+/* News Style */
+.single-news {
+	display: flex;
+}
+.single-news .news-img {
+	width: 200px !important;
+}
+.single-news .news-img img {
+	width: 100%;
+}
+.single-news .news-content {
+	margin-left: 20px;
+}
+/* News Style End */
