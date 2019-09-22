@@ -28,6 +28,7 @@
 /* Default Color */
 :root {
 	--primary-bg: #4582FF;
+	--secoundary-bg: #fea116; 
 }
 
 
@@ -298,6 +299,9 @@ a{
 	right: 0;
 	z-index: 2;
 	line-height: 26px;
+}
+.single-top-news:hover h4 {
+	color: var(--secoundary-bg);
 }
 /* Top News Area End */
 
