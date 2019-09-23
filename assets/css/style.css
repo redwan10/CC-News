@@ -156,8 +156,12 @@ a{
 
 
 /* Default bg color */
-
-
+.bg-gray {
+	background-color: var(--gray-bg); 
+}
+.bg-white{
+	background-color: #fff;
+}
 /* Custom css start */
 
 
@@ -480,6 +484,7 @@ form.news-cat-form button:hover {
 /* News Area */
 .single-news {
 	margin-bottom: 30px;
+	background-color: #fff;
 }
 .single-news .news-img {
 	margin-bottom: 20px;
@@ -494,6 +499,10 @@ form.news-cat-form button:hover {
 .single-news .news-content .news-footer .news-link:hover {
 	color: var(--primary-bg);
 	text-decoration: underline;
+}
+.single-news .news-content {
+	padding: 0 10px;
+	padding-bottom: 20px;
 }
 .single-news .news-content h5 {
 	transition: all 0.3s;
