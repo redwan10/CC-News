@@ -149,6 +149,9 @@ a{
 	height: 3px;
 	background-color: #d84315;
 }
+.ad-area img {
+	width: 100%;
+}
 /* Default button */
 
 
@@ -406,33 +409,29 @@ ul.tab-menu li:first-child a {
 
 
 /* News Style */
-.single-news {
+.single-cat-news {
 	display: flex;
 	margin-bottom: 30px;
 }
-.single-news .news-img {
+.single-cat-news .news-img {
 	width: 30%;
 	margin-right: 15px;
 }
-.single-news .news-img img { 
+.single-cat-news .news-img img { 
 	width: 100%;
 }
-.single-news .news-content {
+.single-cat-news .news-content {
 	width: 70%;
 }
-.single-news .news-content h5 {
+.single-cat-news .news-content h5 {
 	margin-bottom: 0;
 	padding-left: 0;
 	display: block;
-	font-size: 22px;
+	font-size: 20px;
 	line-height: 32px;
 }
-.single-news:hover .news-content h5 {
+.single-cat-news:hover .news-content h5 {
 	color: var(--primary-bg);
-}
-.news-area {
-	overflow: hidden;
-	display: block;
 }
 /* News Style End */
 
@@ -477,3 +476,49 @@ form.news-cat-form button:hover {
 	background-color: #fff;
 }
 /* Category Select Option End */
+
+/* News Area */
+.single-news {
+	margin-bottom: 30px;
+}
+.single-news .news-img {
+	margin-bottom: 20px;
+	max-height: 180px;
+	overflow: hidden;
+}
+.single-news .news-content .news-footer .news-link {
+	font-size: 14px;
+	font-weight: 600;
+	z-index: 99999;
+}
+.single-news .news-content .news-footer .news-link:hover {
+	color: var(--primary-bg);
+	text-decoration: underline;
+}
+.single-news .news-content h5 {
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+}
+.single-news:hover .news-content h5 {
+	color: var(--primary-bg);
+
+}
+.single-news .news-content .news-footer .news-meta span {
+	display: inline-block;
+	margin-right: 10px;
+	border-right: 1px solid #000;
+	padding-right: 10px;
+	font-size: 14px;
+}
+.single-news .news-content .news-footer .news-meta span:last-child{
+	border-right: none;
+	margin-right: 0;
+	padding-right: 0;
+}
+.single-news .news-content .news-footer .news-meta span i {
+	margin-right: 5px;
+}
+/* News Area End */
