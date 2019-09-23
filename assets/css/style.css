@@ -76,6 +76,11 @@ h6 {
 	font-style: normal;
 	font-weight: 600;
 	text-transform: normal;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
 }
 
 h1 {
@@ -504,16 +509,10 @@ form.news-cat-form button:hover {
 	padding: 0 10px;
 	padding-bottom: 20px;
 }
-.single-news .news-content h5 {
-	transition: all 0.3s;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
-}
-.single-news:hover .news-content h5 {
+.single-news:hover .news-content h5, 
+.single-news:hover .news-content h4, 
+.single-news:hover .news-content h6 {
 	color: var(--primary-bg);
-
 }
 .single-news .news-content .news-footer .news-meta span {
 	display: inline-block;
