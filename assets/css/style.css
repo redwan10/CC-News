@@ -24,7 +24,7 @@
 
 /* google fonts */
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Work+Sans:300,400,500,600,700,800');
-
+@import url('https://fonts.maateen.me/solaiman-lipi/font.css');
 /* Default Color */
 :root {
 	--primary-bg: #4582FF;
@@ -35,7 +35,7 @@
 
 /* 1. Theme default css */
  body {
-	font-family: 'Work Sans', sans-serif;
+	font-family: 'SolaimanLipi', sans-serif !important;
 	font-weight: normal;
 	font-style: normal;
 }
@@ -69,7 +69,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'SolaimanLipi', sans-serif !important;
 	font-weight: normal;
 	color: #4a4a4a;
 	margin-top: 0px;
@@ -411,8 +411,14 @@ ul.tab-menu li:first-child a {
 	margin-bottom: 30px;
 }
 .single-news .news-img {
-	width: 200px !important;
+	width: 30%;
 	margin-right: 15px;
+}
+.single-news .news-img img { 
+	width: 100%;
+}
+.single-news .news-content {
+	width: 70%;
 }
 .single-news .news-content h5 {
 	margin-bottom: 0;
