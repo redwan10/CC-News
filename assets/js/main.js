@@ -43,6 +43,12 @@
     ]
   });
 
+  // niceSelect
+  $('.select-option').ready(function() {
+    $('select').niceSelect();
+  });
+
+
 
 
 })(jQuery);
