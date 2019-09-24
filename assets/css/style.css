@@ -333,8 +333,8 @@ a{
 .header-menu .mega-menu-wrap {
 	position: absolute;
 	top: 95%;
-	left: 0;
-	right: 0
+	left: 14px;
+	right: 14px;
 }
 ul.mega-menu-wrap li ul.mega-sub-menu {
 	width: 200px;
@@ -544,7 +544,7 @@ form.news-cat-form {
 	margin-bottom: 50px;
 }
 form.news-cat-form  .select-option {
-	width: 30%;
+	width: 28%;
 	margin-right: 10px;
 	display: inline-block;
 	float: none;

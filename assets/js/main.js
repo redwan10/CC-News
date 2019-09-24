@@ -2,6 +2,11 @@
     "use strict";
 
 
+  // mega menu toggle
+  $("#mega-menu-toggle").click(function(){
+    $("#mega-menu").toggle("slow");
+  });
+
   // niceSelect
   $('.select-option').ready(function() {
     $('select').niceSelect();
