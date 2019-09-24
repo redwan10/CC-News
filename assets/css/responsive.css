@@ -42,12 +42,95 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) { 
-   
+   /* Main Menu Style */
+   .main-menu > ul > li {
+        display: none;
+    }
+    .main-menu > ul > li:last-child {
+        display: inline-block;
+    }
+    .main-menu > ul > li:last-child > a {
+        font-size: 22px;
+    }
+    .main-menu ul li.mega-menu-dropdown ul li ul.mega-sub-menu {
+        width: 170px;
+		}
+		/* top News */
+		.single-top-news.big-box {
+			margin-bottom: 30px;
+		}
+		/* Category Area */
+		ul.tab-menu li a {
+			padding: 0.5em 1em;
+			padding-right: 2.8em;
+		}
+		form.news-cat-form .select-option {
+			width: 45%;
+			margin-bottom: 20px;
+		}
+		form.news-cat-form .select-option.last {
+			width: 79%;
+			margin-bottom: 0;
+		}
+		/* Footer Area */
+		.single-footer-wid {
+			margin-bottom: 40px;
+		}
+		.footer-wid-area {
+			padding-bottom: 10px;
+		}
+		.footer-menu ul li {
+			margin-right: 7px;
+		}
 }
 
 /* Extra small devices (portrait phones, less than 768px) */
 @media (max-width: 767.98px) { 
-   
+   /* Main Menu Style */
+   .main-menu > ul > li {
+		display: none;
+		}
+		.main-menu > ul > li:last-child {
+				display: inline-block;
+		}
+		.main-menu > ul > li:last-child > a {
+				font-size: 22px;
+		}
+		.main-menu ul li.mega-menu-dropdown ul li ul.mega-sub-menu {
+				width: 170px;
+		}
+		/* Top NEws */
+		.single-top-news.big-box {
+			margin-bottom: 30px;
+		}
+		/* Tab Section */
+		ul.tab-menu li a {
+			padding: 0.5em 1.1em;
+			padding-right: 1.8em;
+		}
+		/* Category News */
+		form.news-cat-form .select-option {
+			width: 45%;
+			margin-bottom: 20px;
+		}
+		form.news-cat-form .select-option.last {
+			width: 79%;
+			margin-bottom: 0;
+		}
+		/* Picture Slider */
+		.single-picture-slider .slider-text {
+			max-width: 100%;
+		}
+		.picture-slider-wrapper .slick-arrow {
+			top: -65px;
+		}
+		/* Footer Area */
+		.single-footer-wid {
+			margin-bottom: 40px;
+		}
+		.footer-wid-area {
+			padding-bottom: 10px;
+		}
 }
 
 /* Small devices (landscape phones, 576px and up) */

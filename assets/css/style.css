@@ -664,6 +664,12 @@ form.news-cat-form button:hover {
 .picture-slider-wrapper .slick-arrow.slick-prev {
 	right: 60px;
 }
+.picture-slider-area .single-cat-news {
+	border-bottom: 1.1px solid #ccc;
+}
+.picture-slider-area .single-cat-news:last-child {
+	border-bottom-color: transparent;
+}
 /* Picture Slider */
 
 /* category widget Area */
