@@ -274,6 +274,13 @@ a{
 	margin: 0 10px;
 	position: relative;
 }
+
+.main-menu > ul > li:last-child {
+	margin-right: 0;
+}
+.main-menu > ul > li:first-child {
+	margin-left: 0;
+}
 .main-menu li a {
 	font-weight: 600;
     font-size: 14px;
@@ -312,6 +319,7 @@ a{
 }
 .main-menu > ul > li > ul.sub-menu > li {
 	display: block;
+	margin: 0 10px;
 }
 /* Sub Menu End */
 
@@ -333,12 +341,14 @@ a{
 }
 .main-menu ul li.mega-menu-dropdown ul li ul.mega-sub-menu li {
 	display: block;
+	margin: 0 10px;
 }
 .main-menu ul li.mega-menu-dropdown ul li ul.mega-sub-menu li.title {
 	font-size: 18px;
 	border-bottom: 1px solid #ccc;
 	position: relative;
 	padding-bottom: 3px;
+	color: var(--secoundary-bg);
 }
 .main-menu ul li.mega-menu-dropdown ul li ul.mega-sub-menu li.title:before {
 	position: absolute;
