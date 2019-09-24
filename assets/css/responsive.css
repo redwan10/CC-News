@@ -8,14 +8,6 @@
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) { 
-   /* MEga Menu */
-   .main-menu ul li.mega-menu-dropdown ul {
-        padding-left: 10px;
-        padding-top: 10px;
-    }
-    .main-menu ul li.mega-menu-dropdown ul li ul.mega-sub-menu {
-        width: 180px;
-    }
     /* Top News Area */
     .single-top-news.big-box {
         height: 100%;
@@ -52,36 +44,33 @@
     .main-menu > ul > li:last-child > a {
         font-size: 22px;
     }
-    .main-menu ul li.mega-menu-dropdown ul li ul.mega-sub-menu {
-        width: 170px;
-		}
-		/* top News */
-		.single-top-news.big-box {
-			margin-bottom: 30px;
-		}
-		/* Category Area */
-		ul.tab-menu li a {
-			padding: 0.5em 1em;
-			padding-right: 2.8em;
-		}
-		form.news-cat-form .select-option {
-			width: 45%;
-			margin-bottom: 20px;
-		}
-		form.news-cat-form .select-option.last {
-			width: 79%;
-			margin-bottom: 0;
-		}
-		/* Footer Area */
-		.single-footer-wid {
-			margin-bottom: 40px;
-		}
-		.footer-wid-area {
-			padding-bottom: 10px;
-		}
-		.footer-menu ul li {
-			margin-right: 7px;
-		}
+	/* top News */
+	.single-top-news.big-box {
+		margin-bottom: 30px;
+	}
+	/* Category Area */
+	ul.tab-menu li a {
+		padding: 0.5em 1em;
+		padding-right: 2.8em;
+	}
+	form.news-cat-form .select-option {
+		width: 45%;
+		margin-bottom: 20px;
+	}
+	form.news-cat-form .select-option.last {
+		width: 79%;
+		margin-bottom: 0;
+	}
+	/* Footer Area */
+	.single-footer-wid {
+		margin-bottom: 40px;
+	}
+	.footer-wid-area {
+		padding-bottom: 10px;
+	}
+	.footer-menu ul li {
+		margin-right: 7px;
+	}
 }
 
 /* Extra small devices (portrait phones, less than 768px) */
@@ -130,6 +119,10 @@
 		}
 		.footer-wid-area {
 			padding-bottom: 10px;
+		}
+		ul.mega-menu-wrap li ul.mega-sub-menu {
+			width: 160px;
+			padding: 20px 10px;
 		}
 }
 
