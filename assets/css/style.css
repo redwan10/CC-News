@@ -43,10 +43,10 @@
 }
 a,
 .button,button {
-	-webkit-transition:;
-	-moz-transition:;
-	-ms-transition:;
-	-o-transition:;
+	-webkit-transition: all 0.3s ease-out 0s;
+	-moz-transition: all 0.3s ease-out 0s;
+	-ms-transition: all 0.3s ease-out 0s;
+	-o-transition: all 0.3s ease-out 0s;
 	transition: all 0.3s ease-out 0s;
 }
 a:hover{
@@ -493,7 +493,6 @@ ul.tab-menu li:first-child a {
 	line-height: 36px;
 	font-weight: 500;
 	font-family: rubik;
-	display: inline-block;
 	float: right;
 	margin-left: 5px;
 }
